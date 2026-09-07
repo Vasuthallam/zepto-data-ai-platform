@@ -1,0 +1,1 @@
+Zepto supports multiple payment methods, including eligible digital payment options and cashless methods available at checkout. The payment methods displayed may depend on the customer's location, order, and current availability. Customers should select an available payment method during checkout and verify the final order amount before completing payment.

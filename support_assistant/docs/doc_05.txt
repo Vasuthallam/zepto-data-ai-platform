@@ -1,0 +1,1 @@
+Customers can cancel eligible Zepto orders through the app when cancellation is available. Cancellation availability can depend on the order status and whether the order has already progressed for fulfillment or delivery. Any applicable charges or refund treatment are shown according to the cancellation and payment conditions applicable to the order.

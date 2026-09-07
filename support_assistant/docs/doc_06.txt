@@ -1,0 +1,1 @@
+Zepto order tracking allows customers to view the current status of an order through the app. Tracking information may include order preparation, rider assignment, and delivery progress. Delivery estimates can change based on order volume, rider availability, traffic, weather, and other operational conditions.

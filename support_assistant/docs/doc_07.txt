@@ -1,0 +1,1 @@
+Customers should contact Zepto support through the available support options in the app when they have an issue with an order, delivery, payment, refund, or product. Providing the relevant order information and a clear description of the issue can help support teams investigate and resolve the request.
