@@ -1,0 +1,342 @@
+DATABASE INFORMATION
+======================================================================
+Total books: 200
+Total categories: 29
+
+======================================================================
+QUERY 1 - FIRST 10 BOOKS
+======================================================================
+ book_id                                                                                          title  price_gbp  price_inr  rating  in_stock  category_id
+       1                                                                           A Light in the Attic      51.77   5461.735       3         1            1
+       2                                                                             Tipping the Velvet      53.74   5669.570       1         1            2
+       3                                                                                     Soumission      50.10   5285.550       1         1            3
+       4                                                                                  Sharp Objects      47.82   5045.010       4         1            4
+       5                                                          Sapiens: A Brief History of Humankind      54.23   5721.265       5         1            5
+       6                                                                                The Requiem Red      22.65   2389.575       1         1            6
+       7                                             The Dirty Little Secrets of Getting Your Dream Job      33.34   3517.370       4         1            7
+       8        The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull      17.93   1891.615       3         1            8
+       9 The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics      22.60   2384.300       4         1            8
+      10                                                                                The Black Maria      52.15   5501.825       1         1            1
+
+======================================================================
+QUERY 2 - FIVE STAR BOOKS
+======================================================================
+                                                                             title  price_gbp  price_inr  rating  in_stock
+                #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.      23.11   2438.105       5         1
+                #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.      23.11   2438.105       5         1
+                                                                        Black Dust      34.53   3642.915       5         1
+                                                                        Black Dust      34.53   3642.915       5         1
+                                                        Chase Me (Paris Nights #2)      25.27   2665.985       5         1
+                                                        Chase Me (Paris Nights #2)      25.27   2665.985       5         1
+                                                                              Join      35.67   3763.185       5         1
+                                                                              Join      35.67   3763.185       5         1
+                                  Princess Between Worlds (Wide-Awake Princess #5)      13.34   1407.370       5         1
+                                  Princess Between Worlds (Wide-Awake Princess #5)      13.34   1407.370       5         1
+ Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)      13.61   1435.855       5         1
+ Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)      13.61   1435.855       5         1
+                                                       Private Paris (Private #10)      47.61   5022.855       5         1
+                                                       Private Paris (Private #10)      47.61   5022.855       5         1
+                                                         Rip it Up and Start Again      35.02   3694.610       5         1
+                                                         Rip it Up and Start Again      35.02   3694.610       5         1
+                                             Sapiens: A Brief History of Humankind      54.23   5721.265       5         1
+                                             Sapiens: A Brief History of Humankind      54.23   5721.265       5         1
+                           Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29   5516.595       5         1
+                           Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29   5516.595       5         1
+                                                                       Set Me Free      17.46   1842.030       5         1
+                                                                       Set Me Free      17.46   1842.030       5         1
+                                                                    Sophie's World      15.94   1681.670       5         1
+                                                                    Sophie's World      15.94   1681.670       5         1
+               The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution      32.24   3401.320       5         1
+               The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution      32.24   3401.320       5         1
+                                                                 The Elephant Tree      23.82   2513.010       5         1
+                                                                 The Elephant Tree      23.82   2513.010       5         1
+                        The Four Agreements: A Practical Guide to Personal Freedom      17.66   1863.130       5         1
+                        The Four Agreements: A Practical Guide to Personal Freedom      17.66   1863.130       5         1
+The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer      20.59   2172.245       5         1
+The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer      20.59   2172.245       5         1
+                                                                            Thirst      17.27   1821.985       5         1
+                                                                            Thirst      17.27   1821.985       5         1
+                                                      We Love You, Charlie Freeman      50.27   5303.485       5         1
+                                                      We Love You, Charlie Freeman      50.27   5303.485       5         1
+                           Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30   4251.650       5         1
+                           Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30   4251.650       5         1
+
+======================================================================
+QUERY 3 - BOOKS ABOVE AVERAGE GBP PRICE
+======================================================================
+                                                                                                                                                              title  price_gbp  rating
+                                                                                                                       The Death of Humanity: and the Case for Life      58.11       4
+                                                                                                                       The Death of Humanity: and the Case for Life      58.11       4
+                                                                                                                                     Slow States of Collapse: Poems      57.31       3
+                                                                                                                                     Slow States of Collapse: Poems      57.31       3
+                                                                                 Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25       3
+                                                                                 Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25       3
+                                                                                                                                                The Past Never Ends      56.50       4
+                                                                                                                                                The Past Never Ends      56.50       4
+                                    The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41       1
+                                    The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41       1
+                                                                                                                                                  Masks and Shadows      56.40       2
+                                                                                                                                                  Masks and Shadows      56.40       2
+                                                                                                                                    The Secret of Dreadwillow Carse      56.13       1
+                                                                                                                                    The Secret of Dreadwillow Carse      56.13       1
+                                                                                                     The Electric Pencil: Drawings from Inside State Hospital No. 3      56.06       1
+                                                                                                     The Electric Pencil: Drawings from Inside State Hospital No. 3      56.06       1
+                                                                                                                                      Birdsong: A Story in Pictures      54.64       3
+                                                                                                                                      Birdsong: A Story in Pictures      54.64       3
+                                                                                                                              Sapiens: A Brief History of Humankind      54.23       5
+                                                                                                                              Sapiens: A Brief History of Humankind      54.23       5
+                                                                                                                  The Murder That Never Was (Forensic Instincts #5)      54.11       3
+                                                                                                                  The Murder That Never Was (Forensic Instincts #5)      54.11       3
+                                                                                              Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners)      53.90       2
+                                                                                              Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners)      53.90       2
+                                                                                                                                                 Tipping the Velvet      53.74       1
+                                                                                                                                                 Tipping the Velvet      53.74       1
+                                                                                                                                     Aladdin and His Wonderful Lamp      53.13       3
+                                                                                                                                     Aladdin and His Wonderful Lamp      53.13       3
+                                                                                                            Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29       5
+                                                                                                            Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29       5
+                                                                                                                                                Behind Closed Doors      52.22       4
+                                                                                                                                                Behind Closed Doors      52.22       4
+                                                                                                                                                    The Black Maria      52.15       1
+                                                                                                                                                    The Black Maria      52.15       1
+                                                                                                                                               A Light in the Attic      51.77       3
+                                                                                                                                               A Light in the Attic      51.77       3
+                                                                                                                                       Libertarianism for Beginners      51.33       2
+                                                                                                                                       Libertarianism for Beginners      51.33       2
+                                                                                                                      Saga, Volume 5 (Saga (Collected Editions) #5)      51.04       2
+                                                                                                                      Saga, Volume 5 (Saga (Collected Editions) #5)      51.04       2
+                                                                                                Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)      50.40       3
+                                                                                                Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)      50.40       3
+                                                                                                                                       We Love You, Charlie Freeman      50.27       5
+                                                                                                                                       We Love You, Charlie Freeman      50.27       5
+                                                                                                                                                         Soumission      50.10       1
+                                                                                                                                                         Soumission      50.10       1
+                                                                        The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life      49.05       3
+                                                                        The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life      49.05       3
+                                                                                             orange: The Complete Collection 1 (orange: The Complete Collection #1)      48.41       1
+                                                                                             orange: The Complete Collection 1 (orange: The Complete Collection #1)      48.41       1
+                                                                                                                                                      Sharp Objects      47.82       4
+                                                                                                                                                      Sharp Objects      47.82       4
+                                                                                                                                        Private Paris (Private #10)      47.61       5
+                                                                                                                                        Private Paris (Private #10)      47.61       5
+                                                                                                      Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)      46.91       2
+                                                                                                      Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)      46.91       2
+                                                                                                            Online Marketing for Busy Authors: A Step-By-Step Guide      46.35       1
+                                                                                                            Online Marketing for Busy Authors: A Step-By-Step Guide      46.35       1
+                                                                                                     Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)      45.61       3
+                                                                                                     Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)      45.61       3
+                                                                                                          The Natural History of Us (The Fine Art of Pretending #2)      45.22       3
+                                                                                                          The Natural History of Us (The Fine Art of Pretending #2)      45.22       3
+                                                                                                                                            It's Only the Himalayas      45.17       2
+                                                                                                                                            It's Only the Himalayas      45.17       2
+                                                                                                                                    Without Borders (Wanderlove #1)      45.07       2
+                                                                                                                                    Without Borders (Wanderlove #1)      45.07       2
+                                                                                                                                                     Wall and Piece      44.18       4
+                                                          Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness      44.18       4
+                                                                                                                                                     Wall and Piece      44.18       4
+                                                          Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness      44.18       4
+                                                                                                          The Most Perfect Thing: Inside (and Outside) a Bird's Egg      42.96       4
+                                                                                                          The Most Perfect Thing: Inside (and Outside) a Bird's Egg      42.96       4
+                                                                                     Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up      41.83       4
+                                                                                     Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up      41.83       4
+                                                                                                                                                     The Art Forger      40.76       3
+                                                                                                                                                     The Art Forger      40.76       3
+                                                                                                            Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30       5
+                                                                                                            Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30       5
+                                                                                                           Layered: Baking, Building, and Styling Spectacular Cakes      40.11       1
+                                                                                                           Layered: Baking, Building, and Styling Spectacular Cakes      40.11       1
+                                                                                                                                                        Soul Reader      39.58       2
+                                                                                                                                                        Soul Reader      39.58       2
+                                                                                                                                                           Security      39.25       2
+                                                                                                                                                           Security      39.25       2
+                                                                                                                           The Nameless City (The Nameless City #1)      38.16       4
+                                                                                                                           The Nameless City (The Nameless City #1)      38.16       4
+                                                                                                              Mesaerion: The Best Science Fiction Stories 1800-1849      37.59       1
+                                                                                                              Mesaerion: The Best Science Fiction Stories 1800-1849      37.59       1
+                                                                                                                                                    How Music Works      37.32       2
+                                                                                                                                                    How Music Works      37.32       2
+                                                                                                          The Gutsy Girl: Escapades for Your Life of Epic Adventure      37.13       1
+                                                                                                          The Gutsy Girl: Escapades for Your Life of Epic Adventure      37.13       1
+                                                                                                                                             The Bear and the Piano      36.89       1
+                                                                                                                                             The Bear and the Piano      36.89       1
+Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics      36.28       2
+Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics      36.28       2
+                                                                                                                                                               Join      35.67       5
+                                                                                                                                                               Join      35.67       5
+                                                                                                                                          Rip it Up and Start Again      35.02       5
+                                                                                                                                          Rip it Up and Start Again      35.02       5
+
+======================================================================
+QUERY 4 - TOP 10 MOST EXPENSIVE BOOKS
+======================================================================
+                                                                                                                          title  price_gbp  price_inr  rating
+                                                                                   The Death of Humanity: and the Case for Life      58.11   6130.605       4
+                                                                                   The Death of Humanity: and the Case for Life      58.11   6130.605       4
+                                                                                                 Slow States of Collapse: Poems      57.31   6046.205       3
+                                                                                                 Slow States of Collapse: Poems      57.31   6046.205       3
+                                             Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25   6039.875       3
+                                             Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25   6039.875       3
+                                                                                                            The Past Never Ends      56.50   5960.750       4
+                                                                                                            The Past Never Ends      56.50   5960.750       4
+The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41   5951.255       1
+The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41   5951.255       1
+
+======================================================================
+QUERY 5 - CATEGORY SUMMARY
+======================================================================
+     category_name  book_count  average_price_gbp  average_rating
+    Sequential Art          28              31.91            2.86
+        Nonfiction          24              32.48            3.08
+           Default          18              26.85            3.00
+            Poetry          14              36.24            2.57
+     Add a comment          10              30.34            2.60
+           Fiction          10              43.87            3.80
+    Food and Drink          10              34.89            2.20
+           Fantasy           8              28.38            3.25
+           History           8              33.94            2.25
+       Young Adult           8              25.05            2.75
+         Childrens           6              49.22            1.67
+             Music           6              43.20            3.33
+           Mystery           6              41.32            3.00
+          Thriller           6              29.63            3.33
+        Philosophy           4              37.02            4.50
+           Romance           4              29.90            5.00
+   Science Fiction           4              36.63            3.00
+      Spirituality           4              24.95            5.00
+               Art           2              44.18            4.00
+          Business           2              33.34            4.00
+      Contemporary           2              31.77            1.00
+            Health           2              49.05            3.00
+Historical Fiction           2              53.74            1.00
+            Horror           2              39.25            2.00
+         New Adult           2              45.07            2.00
+          Politics           2              51.33            2.00
+           Science           2              42.96            4.00
+         Self Help           2              46.35            1.00
+            Travel           2              45.17            2.00
+
+======================================================================
+QUERY 6 - IN-STOCK BOOKS
+======================================================================
+ in_stock  book_count
+        1         200
+
+======================================================================
+QUERY 7 - CATEGORY WITH HIGHEST AVERAGE PRICE
+======================================================================
+     category_name  average_price_gbp
+Historical Fiction              53.74
+
+======================================================================
+QUERY 8 - TOP RATED BOOKS
+======================================================================
+                                                  title  price_gbp  rating  in_stock
+                  Sapiens: A Brief History of Humankind      54.23       5         1
+                  Sapiens: A Brief History of Humankind      54.23       5         1
+Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29       5         1
+Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29       5         1
+                           We Love You, Charlie Freeman      50.27       5         1
+                           We Love You, Charlie Freeman      50.27       5         1
+                            Private Paris (Private #10)      47.61       5         1
+                            Private Paris (Private #10)      47.61       5         1
+Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30       5         1
+Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30       5         1
+
+======================================================================
+QUERY 9 - SQL JOIN
+======================================================================
+SQL JOIN rows: 200
+
+ book_id                                                                                          title  price_gbp  price_inr  rating  in_stock      category_name
+       1                                                                           A Light in the Attic      51.77   5461.735       3         1             Poetry
+       2                                                                             Tipping the Velvet      53.74   5669.570       1         1 Historical Fiction
+       3                                                                                     Soumission      50.10   5285.550       1         1            Fiction
+       4                                                                                  Sharp Objects      47.82   5045.010       4         1            Mystery
+       5                                                          Sapiens: A Brief History of Humankind      54.23   5721.265       5         1            History
+       6                                                                                The Requiem Red      22.65   2389.575       1         1        Young Adult
+       7                                             The Dirty Little Secrets of Getting Your Dream Job      33.34   3517.370       4         1           Business
+       8        The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull      17.93   1891.615       3         1            Default
+       9 The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics      22.60   2384.300       4         1            Default
+      10                                                                                The Black Maria      52.15   5501.825       1         1             Poetry
+
+======================================================================
+QUERY 10 - PANDAS MERGE
+======================================================================
+pd.merge() rows: 200
+
+ book_id                                                                                          title  price_gbp  price_inr  rating  in_stock      category_name
+       1                                                                           A Light in the Attic      51.77   5461.735       3         1             Poetry
+       2                                                                             Tipping the Velvet      53.74   5669.570       1         1 Historical Fiction
+       3                                                                                     Soumission      50.10   5285.550       1         1            Fiction
+       4                                                                                  Sharp Objects      47.82   5045.010       4         1            Mystery
+       5                                                          Sapiens: A Brief History of Humankind      54.23   5721.265       5         1            History
+       6                                                                                The Requiem Red      22.65   2389.575       1         1        Young Adult
+       7                                             The Dirty Little Secrets of Getting Your Dream Job      33.34   3517.370       4         1           Business
+       8        The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull      17.93   1891.615       3         1            Default
+       9 The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics      22.60   2384.300       4         1            Default
+      10                                                                                The Black Maria      52.15   5501.825       1         1             Poetry
+
+======================================================================
+QUERY 11 - SQL JOIN VS PANDAS MERGE
+======================================================================
+Do SQL JOIN and pd.merge() produce equivalent results?
+True
+
+======================================================================
+QUERY 12 - SQL VS PANDAS PRICE VALIDATION
+======================================================================
+Same ratings: True
+Same stock values: True
+Same GBP prices: True
+Same INR prices: True
+
+======================================================================
+QUERY 13 - MISSING VALUES
+======================================================================
+book_id        0
+title          0
+price_gbp      0
+price_inr      0
+rating         0
+in_stock       0
+category_id    0
+
+======================================================================
+QUERY 14 - PANDAS CATEGORY ANALYSIS
+======================================================================
+     category_name  book_count  average_price_gbp  average_rating
+    Sequential Art          28              31.91            2.86
+        Nonfiction          24              32.48            3.08
+           Default          18              26.85            3.00
+            Poetry          14              36.24            2.57
+     Add a comment          10              30.34            2.60
+           Fiction          10              43.87            3.80
+    Food and Drink          10              34.89            2.20
+           Fantasy           8              28.38            3.25
+           History           8              33.94            2.25
+       Young Adult           8              25.05            2.75
+         Childrens           6              49.22            1.67
+             Music           6              43.20            3.33
+           Mystery           6              41.32            3.00
+          Thriller           6              29.63            3.33
+        Philosophy           4              37.02            4.50
+           Romance           4              29.90            5.00
+   Science Fiction           4              36.63            3.00
+      Spirituality           4              24.95            5.00
+               Art           2              44.18            4.00
+          Business           2              33.34            4.00
+      Contemporary           2              31.77            1.00
+            Health           2              49.05            3.00
+Historical Fiction           2              53.74            1.00
+            Horror           2              39.25            2.00
+         New Adult           2              45.07            2.00
+          Politics           2              51.33            2.00
+           Science           2              42.96            4.00
+         Self Help           2              46.35            1.00
+            Travel           2              45.17            2.00
+
+======================================================================
+QUERY 15 - SQL VS PANDAS CATEGORY VALIDATION
+======================================================================
+Do SQL GROUP BY and pandas groupby() produce equivalent results?
+True
